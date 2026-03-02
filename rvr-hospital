@@ -1,0 +1,24 @@
+Create Landing Page for RVR Mother & Child Hospital
+This plan covers building a responsive, nicely designed landing page for RVR Mother & Child Hospital using React and Vanilla CSS, focusing on the specific requirements provided (purple color scheme, professional tone, explicit services, and layout elements).
+Proposed Changes
+Project Setup
+* I will run `npx create-vite@latest rvr-hospital --template react` in `C:\Users\vinod\.gemini\antigravity\scratch`
+* I will install standard icons, like `lucide-react` to use crisp SVGs.
+Code Organization
+[NEW] index.css
+* Will contain all core CSS variables (`--color-primary`, `--color-background`, etc) focusing on a purple-based palette.
+* Imports Google Fonts (Inter or Outfit).
+* Generic layout base rules.
+[NEW] App.jsx
+* The main layout assembling Header, Hero, Services, Trust/Testimonials, and Footer.
+[NEW] /src/components/...
+* `Header.jsx`: Navbar with Call Now button.
+* `Hero.jsx`: Immediate authority establishment (Above the fold).
+* `Services.jsx`: Logical service clustering.
+* `TrustSection.jsx`: Ratings, environment details, review text.
+* `Footer.jsx`: Address, map intent, direct contact info.
+Verification Plan
+Automated Tests
+* Run `npm run build` to verify build integrity.
+Manual Verification
+* Use `npm run dev` and visually inspect the output in the browser. Ensure mobile responsiveness and confirm aesthetic alignment with the prompt details.
